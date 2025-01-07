@@ -1,40 +1,9 @@
+.header{
+  display: flex;
 
-/*
-body{
-    font-family: SFArabic;
 }
 
-.product{
-    width: 400px;
-    height: 400px;
-    background-color: red;
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.icon{
+  width: 40px;
+  height: 40px;
 }
-
-a {
-    text-decoration: none;
-    position: relative;
-  }
-  
-  a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: #000;
-    transition: width 0.3s ease;
-  }
-  
-  a:hover::after {
-    width: 200%;
-  }
-
-  .box::after {
-    content: ' World!';
-    color: blue;
-  }*/
