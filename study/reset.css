@@ -39,8 +39,8 @@ ul, ol {
 
 /* 이미지와 미디어 */
 img {
-    max-width: 100%;
-    height: auto;
+    max-width: none;
+    max-height: none;
     display: block;
 }
 
