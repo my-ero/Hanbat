@@ -7,15 +7,15 @@
     <title>위키피디아</title>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!--<link rel="stylesheet" href="./style.css?v=1.0" />
-    <link rel="stylesheet" href="./reset.css?v=1.0" />-->
+    <link rel="stylesheet" href="./style.css?v=1.0" />
+    <link rel="stylesheet" href="./reset.css?v=1.0" />
   </head>
   <body>
     <!--본문으로 이동-->
     <a class="jump-link" href="#bodyContent">본문으로 이동</a>
     <header>
       <!--드롭다운 버튼-->
-      <input class="dropdown-checkbox" type="checkbox" aria-haspopup="true" role="button" aria-label="주 메뉴">
+      <input class="dropdown-checkbox-button" type="checkbox" role="button" aria-haspopup="true" aria-label="주 메뉴">
       <span>주 메뉴</span>
       <!--드롭다운 메뉴-->
       <div class="dropdown-content">
@@ -102,6 +102,43 @@
       <!--로고-->
       <img class="icon logo" src="./asset/wikipedia logo.png" alt="위키피디아 로고">
       <img class="icon logo-name" src="./asset/wikipedia logo name.png" alt="위키피디아 로고 이름">
+      <!--검색-->
+      <div class="main-search">
+        <div class="search-icon">
+          <span>검색</span>
+        </div>
+        <input class="main-search-filed" type="search" name="search" placeholder="위키백과 검색" aria-label="위키백과 검색" accesskey="f" autocomplete="off">
+        <button class="main-search-button">검색</button>
+      </div>
+      <nav class="nav-menu">
+        <div class="view-icon">
+          <input class="nav-menu-checkbox-button" type="checkbox" role="button" aria-haspopup="true" aria-label="보이기">
+          <span>보이기</span>
+        </div>
+        <div class="nav-menu-list">
+          <ul>
+            <li class="nav-menu-list-heading" >
+              <a href="" title="기부로 이동하기">
+                <span>기부</span>
+              </a>
+            </li>
+            <li class="nav-menu-list-heading" >
+              <a href="" title="계정 만들기">
+                <span>계정 만들기</span>
+              </a>
+            </li>
+            <li class="nav-menu-list-heading" >
+              <a href="" title="로그인 하러가기">
+                <span>로그인</span>
+              </a>
+            </li>
+          </ul>
+          <div class="more-icon">
+            <input class="dropdown-checkbox-button" type="checkbox" role="button" aria-haspopup="true" aria-label="더보기 버튼">
+            <span>더보기</span>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
 
