@@ -1,3 +1,79 @@
 .jump-link{
-  
+    display: block;
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    user-select: none;
+}
+header{
+    min-width: 1120px;
+    padding: 8px 2.75rem;
+}
+
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    min-height: 3.125rem;
+    min-width: 18.75em;
+    max-width: 99.75rem;
+    gap: 20px;
+}
+.header-container-start{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.header-container-search-login{
+    
+}
+.pin-menu-dropdown-checkbox-button-image{
+    min-width: 20px;
+    min-height: 20px;
+}
+.pin-menu-dropdown-checkbox-button{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+}
+.pin-menu-dropdown-checkbox-button-label{
+    display: block;
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    user-select: none;
+}
+.pin-menu-dropdown-content{
+    position: absolute;
+    visibility: hidden;
+    overflow: hidden auto;
+}
+.main-search{
+    flex-grow: 1;
+}
+.nav-menu{
+    display: flex;
+    height: auto;
+}
+.nav-menu-list ul{
+    display: flex;
+}
+.logo{
+    display: flex;
+    height: 100%;
+    gap: 12px;
+}
+.icon{
+    display: block;
 }
