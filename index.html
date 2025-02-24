@@ -14,15 +14,15 @@
     <script src="./script.js"></script>
     <a class="jump-link" href="#bodyContent">본문으로 이동</a>
     <header class="header">
-      <div class="dropdown">
-        <div id="btn" class="dropdown__btn">
-          <button class="ico-menu" type="button" aria-haspopup="menu" aria-expanded="false">
+      <div class="main-menu">
+        <div class="main-menu__btn">
+          <button class="menu-ico" type="button" aria-haspopup="menu" aria-expanded="false">
             <span class="sr-only">메뉴 확장</span>
           </button>
         </div>
-        <div id="menu" class="dropdown__menu">
-          <div class="major-menu">
-            <div id="h1-title" class="major-menu__title">
+        <div class="main-menu__list">
+          <div class="section">
+            <div id="h1-title" class="main-menu__list">
                 <strong>주메뉴</strong>
                 <button class="s-button" type="button" aria-label="사이드바 열기">
                   사이드바로 변경
@@ -97,15 +97,21 @@
         </button>
       </div>
       <div class="nav">
-        <div class="show-menu">
+        <div class="setting-menu">
           <div id="btn" class="show-menu__btn">
             <button class="ico-eye" type="button" aria-haspopup="menu" aria-expanded="false">
               <span class="sr-only">보이기</span>
             </button>
           </div>
+          <div id="h1-title" class="show-title">
+            <strong>보이기</strong>
+            <button class="s-button" type="button" aria-label="사이드바로 이동">
+              사이드바로 이동
+            </button>
+          </div>
         </div>
         <ul class="nav__list">
-      
+          
         </ul>
       </div>
     </header>
