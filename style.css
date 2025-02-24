@@ -17,16 +17,20 @@ header{
 }
 
 [class$="-ico"] {
+    display: inline-block;
     padding: 8px;
 }
 
-.ico-menu::after {
+[class$="-ico"]::after {
     content: "";
-    background-image: url(./asset/ico_menu.png);
     background-size: 24px;
     background-repeat: no-repeat;
     width: 24px;
     height: 24px;
+}
+
+.menu-ico::after {
+    background-image: url(./asset/ico_menu.png);
 }
 
 .s-button {
@@ -34,25 +38,15 @@ header{
     background-color: #eee;
 }
 
-.ico-search::after {
-    content: "";
+.search-ico::after {
     background-image: url(./asset/ico_search.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
 }
 
 .search-area > * {
     display: inline-block;
 }
 
-.ico-eye::after {
-    content: "";
+.eye-ico::after {
     background-image: url(./asset/ico_search.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
 }
 
