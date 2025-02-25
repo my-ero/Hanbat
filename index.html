@@ -47,7 +47,7 @@
             </ul>
           </div>
           <div id="p-사용자 모임" class="main-menu__area">
-            <div id="h2-title" class="main-menu__list">
+            <div class="main-menu__list">
               사용자 모임
             </div>
             <ul id="list" class="main-menu__list">
@@ -63,7 +63,7 @@
             </ul>
           </div>
           <div id="p-편집 안내" class="main-menu__area">
-            <div id="h2-title" class="main-menu__list">
+            <div class="main-menu__list">
               편집 안내
             </div>
             <ul class="main-menu__list">
@@ -90,39 +90,102 @@
         </a>
       </div>
       <div class="main-search">
-<<<<<<< HEAD
         <div class="main-search__area">
-          <span class="search-ico" aria-label="검색 아이콘"></span>
-          <input class="search__input" type="search" placeholder="위키백과 검색">
+          <div class="main-search__field">
+            <span class="search-ico" aria-label="검색 아이콘"></span>
+            <input class="search__input" type="search" placeholder="위키백과 검색">
+          </div>
           <button class="s-button" type="button">
             검색
           </button>
         </div>
-=======
-        <span class="search-ico"></span>
-        <input class="search__input" type="search" placeholder="위키백과 검색">
-        <button class="s-button" type="button">
-          검색
-        </button>
->>>>>>> parent of 19d028f (헤더 css 작업)
       </div>
       <div class="nav">
         <div class="setting-menu">
-          <div id="btn" class="show-menu__btn">
-            <button class="eye-ico" type="button" aria-haspopup="menu" aria-expanded="false">
+          <div class="setting-menu__btn">
+            <button class="text-edit-ico" type="button" aria-haspopup="menu" aria-expanded="false">
               <span class="sr-only">보이기</span>
             </button>
           </div>
-          <div id="h1-title" class="show-title">
-            <strong>보이기</strong>
-            <button class="s-button" type="button" aria-label="사이드바로 이동">
-              사이드바로 이동
-            </button>
+          <div class="setting-menu__popup">
+            <div class="setting-menu__area">
+              <strong>보이기</strong>
+              <button class="s-button" type="button" aria-label="사이드바로 이동">
+                사이드바로 이동
+              </button>
+            </div>
+            <div class="setting-menu__area">
+              <div class="setting-menu__list">
+                텍스트
+              </div>
+              <ul class="setting-menu__list">
+                <li class="setting-menu__list-item">
+                  <input id="text-ra-01" class="ch-radio" type="radio" name="text-change" value="작음">
+                  <label for="text-ra-01">작음</label>
+                </li>
+                <li class="setting-menu__list-item">
+                  <input id="text-ra-02" class="ch-radio" type="radio" name="text-change" value="표준" checked>
+                  <label for="text-ra-02">표준</label>
+                </li>
+                <li class="setting-menu__list-item">
+                  <input id="text-ra-03" class="ch-radio" type="radio" name="text-change" value="큼">
+                  <label for="text-ra-03">큼</label>
+                </li>
+              </ul>
+            </div>
+            <div class="setting-menu__area">
+              <div class="setting-menu__list">
+                너비
+              </div>
+              <ul class="setting-menu__list">
+                <li class="setting-menu__list-item">
+                  <input id="width-ra-01" class="ch-radio" type="radio" name="width-change" value="표준">
+                  <label for="width-ra-01">표준</label>
+                </li>
+                <li class="setting-menu__list-item">
+                  <input id="width-ra-02" class="ch-radio" type="radio" name="width-change" value="넓게">
+                  <label for="width-ra-02">넓게</label>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <ul class="nav__list">
-          
+          <li class="nav__list-item">
+            <a href="" aria-label="기부로 가기">
+              기부
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="" aria-label="계정 만들기">
+              계정 만들기
+            </a>
+          </li>
+          <li class="nav__list-item">
+            <a href="" aria-label="로그인 하기">
+              로그인
+            </a>
+          </li>
         </ul>
+        <div class="more-menu">
+          <div class="more-menu__btn">
+            <button class="more-ico" type="button" aria-haspopup="menu" aria-expanded="false">
+              <span class="sr-only">더보기</span>
+            </button>
+          </div>
+          <div class="more-menu__popup">
+            <div class="more-menu__list">
+              로그아웃한 편집자를 위한 문서
+              <a href="" aria-label="로그아웃한 편집자를 위한 문서 더 알아보기로 이동">더 알아보기</a>
+            </div>
+            <div class="more-menu__list">
+              <a href="" aria-label="기여로 이동">기여</a>
+            </div>
+            <div class="more-menu__list">
+              <a href="" aria-label="토론으로 이동">토론</a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 

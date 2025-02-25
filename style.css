@@ -8,15 +8,20 @@
     user-select: none;
 }
 header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
     min-width: 1120px;
     padding: 8px 2.75rem;
 }
 
-.btn {
-    display: inline-block;
+.main-home__link {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 }
 
-<<<<<<< HEAD
 .main-search {
     max-width: 40em;
     flex-grow: 1;
@@ -26,19 +31,30 @@ header{
     display: flex;
 }
 
-.main-search__area::after {
-    content: "";
-    background-image: url(./asset/ico_search.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    width: 24px;
-    height: 24px;
+.main-search__field {
+    display: flex;
+    flex-grow: 1;
+    border: solid #aaa;
+    border-width: 1px 0 1px 1px;
 }
 
-.search__input {
-   flex-grow: 1; 
+.main-search__field:focus {
+    border: 2px solid #36c;
 }
 
+.s-button {
+    border: 1px solid #aaa;
+}
+
+.s-button:focus {
+    border: 2px solid #36c;
+}
+
+
+.main-search__field > .search__input {
+    flex-basis: auto;
+    flex-grow: 1;
+}
 
 [class$="popup"] {
     display: none;
@@ -50,14 +66,11 @@ header{
 }
 
 [class$="ico"] {
-=======
-[class$="-ico"] {
->>>>>>> parent of 19d028f (헤더 css 작업)
     display: inline-block;
     padding: 8px;
 }
 
-[class$="-ico"]::after {
+[class$="ico"]::after {
     content: "";
     background-size: 24px;
     background-repeat: no-repeat;
@@ -82,7 +95,10 @@ header{
     display: inline-block;
 }
 
-.eye-ico::after {
-    background-image: url(./asset/ico_search.png);
+.text-edit-ico::after {
+    background-image: url(./asset/ico_text-edit.png);
 }
 
+.more-ico::after {
+    background-image: url(./asset/ico_more.png);
+}
