@@ -8,20 +8,15 @@
     user-select: none;
 }
 header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 24px;
     min-width: 1120px;
     padding: 8px 2.75rem;
 }
 
-.main-home__link {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
+.btn {
+    display: inline-block;
 }
 
+<<<<<<< HEAD
 .main-search {
     max-width: 40em;
     flex-grow: 1;
@@ -55,11 +50,14 @@ header{
 }
 
 [class$="ico"] {
+=======
+[class$="-ico"] {
+>>>>>>> parent of 19d028f (헤더 css 작업)
     display: inline-block;
     padding: 8px;
 }
 
-[class$="ico"]::after {
+[class$="-ico"]::after {
     content: "";
     background-size: 24px;
     background-repeat: no-repeat;
@@ -84,10 +82,7 @@ header{
     display: inline-block;
 }
 
-.text-setting-ico::after {
-    background-image: url(./asset/ico_text_setting.png);
+.eye-ico::after {
+    background-image: url(./asset/ico_search.png);
 }
 
-.more-ico::after {
-    background-image: url(./asset/ico_more.png);
-}
