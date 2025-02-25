@@ -15,9 +15,9 @@ html {
 }
 
 body {
-    font-family: 'Inter', 'Arial', sans-serif; /* 현대적이고 가독성 좋은 폰트 */
-    color: #333; /* 기본 텍스트 색상 */
-    background-color: #f9f9f9; /* 밝은 배경색 */
+    font-family: 'pretendard', 'Arial', sans-serif; /* 현대적이고 가독성 좋은 폰트 */
+    color: #000; /* 기본 텍스트 색상 */
+    background-color: #fff; /* 밝은 배경색 */
     -webkit-font-smoothing: antialiased; /* 폰트 렌더링 최적화 */
 }
 
