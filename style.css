@@ -31,15 +31,19 @@ header{
     display: flex;
 }
 
-.main-search__field {
-    display: flex;
-    flex-grow: 1;
+.main-search__area::after {
+    content: "";
+    background-image: url(./asset/ico_search.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
 }
 
-.main-search__field > .search__input {
-    flex-basis: auto;
-    flex-grow: 1;
+.search__input {
+   flex-grow: 1; 
 }
+
 
 [class$="popup"] {
     display: none;
