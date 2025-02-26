@@ -6,7 +6,8 @@
 
     <title>위키피디아</title>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
     <link rel="stylesheet" href="./style.css?v=1.0" />
     <link rel="stylesheet" href="./reset.css?v=1.0" />
   </head>
@@ -22,8 +23,8 @@
         </div>
         <div class="main-menu__popup">
           <div id="p-주메뉴" class="main-menu__area">
-            <div class="main-menu__list">
-                <strong>주메뉴</strong>
+            <div class="main-menu__title">
+                <strong>주 메뉴</strong>
                 <button class="s-button" type="button" aria-label="사이드바 열기">
                   사이드바로 변경
                 </button>
@@ -47,7 +48,7 @@
             </ul>
           </div>
           <div id="p-사용자 모임" class="main-menu__area">
-            <div class="main-menu__list">
+            <div class="main-menu__title">
               사용자 모임
             </div>
             <ul id="list" class="main-menu__list">
@@ -63,7 +64,7 @@
             </ul>
           </div>
           <div id="p-편집 안내" class="main-menu__area">
-            <div class="main-menu__list">
+            <div class="main-menu__title">
               편집 안내
             </div>
             <ul class="main-menu__list">
@@ -95,7 +96,7 @@
             <span class="search-ico" aria-label="검색 아이콘"></span>
             <input class="search__input" type="search" placeholder="위키백과 검색">
           </div>
-          <button class="s-button" type="button">
+          <button class="link-button" type="button">
             검색
           </button>
         </div>
@@ -108,14 +109,14 @@
             </button>
           </div>
           <div class="setting-menu__popup">
-            <div class="setting-menu__area">
+            <div class="setting-menu__title">
               <strong>보이기</strong>
               <button class="s-button" type="button" aria-label="사이드바로 이동">
                 사이드바로 이동
               </button>
             </div>
             <div class="setting-menu__area">
-              <div class="setting-menu__list">
+              <div class="setting-menu__title">
                 텍스트
               </div>
               <ul class="setting-menu__list">
@@ -134,7 +135,7 @@
               </ul>
             </div>
             <div class="setting-menu__area">
-              <div class="setting-menu__list">
+              <div class="setting-menu__title">
                 너비
               </div>
               <ul class="setting-menu__list">
@@ -174,9 +175,11 @@
             </button>
           </div>
           <div class="more__popup">
-            <div class="more__list">
+            <div class="more__list-heading">
               로그아웃한 편집자를 위한 문서
-              <a href="" aria-label="로그아웃한 편집자를 위한 문서 더 알아보기로 이동">더 알아보기</a>
+              <a href="" aria-label="로그아웃한 편집자를 위한 문서 더 알아보기로 이동">
+                <span>더 알아보기</span>
+              </a>
             </div>
             <div class="more__list">
               <a href="" aria-label="기여로 이동">기여</a>

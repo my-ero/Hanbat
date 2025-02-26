@@ -78,7 +78,3 @@ input, textarea {
     margin: 0 auto;
     padding: 0 1rem;
 }
-
-::after, ::before{
-    display: block;
-}
