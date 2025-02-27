@@ -7,6 +7,16 @@
     box-sizing: border-box;
 }
 
+.jump-link{
+    display: block;
+    position: absolute !important;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    user-select: none;
+}
+
 /* HTML과 Body 기본 설정 */
 html {
     font-size: 16px; /* 기준 글자 크기 */
@@ -17,7 +27,6 @@ html {
 body {
     font-family: 'pretendard', 'Arial', sans-serif; /* 현대적이고 가독성 좋은 폰트 */
     color: #000; /* 기본 텍스트 색상 */
-    background-color: #fff; /* 밝은 배경색 */
     -webkit-font-smoothing: antialiased; /* 폰트 렌더링 최적화 */
 }
 

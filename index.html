@@ -22,7 +22,7 @@
           </button>
         </div>
         <div class="main-menu__popup">
-          <div id="p-주메뉴" class="main-menu__area">
+          <div class="main-menu__area">
             <div class="main-menu__title">
                 <strong>주 메뉴</strong>
                 <button class="s-button" type="button" aria-label="사이드바 열기">
@@ -48,9 +48,9 @@
             </ul>
           </div>
           <div id="p-사용자 모임" class="main-menu__area">
-            <div class="main-menu__title">
+            <p class="main-menu__title">
               사용자 모임
-            </div>
+            </p>
             <ul id="list" class="main-menu__list">
               <li class="main-menu__list-item">
                 <a href="" title="사랑방으로 이동[alt-shift-z]" aria-label="사랑방으로 이동">사랑방</a>
@@ -63,10 +63,10 @@
               </li>
             </ul>
           </div>
-          <div id="p-편집 안내" class="main-menu__area">
-            <div class="main-menu__title">
+          <div class="main-menu__area">
+            <p class="main-menu__title">
               편집 안내
-            </div>
+            </p>
             <ul class="main-menu__list">
               <li class="main-menu__list-item">
                 <a href="" title="소개로 이동[alt-shift-z]" aria-label="소개로 이동">소개</a>
@@ -109,16 +109,18 @@
             </button>
           </div>
           <div class="setting-menu__popup">
-            <div class="setting-menu__title">
-              <strong>보이기</strong>
-              <button class="s-button" type="button" aria-label="사이드바로 이동">
-                사이드바로 이동
-              </button>
-            </div>
             <div class="setting-menu__area">
               <div class="setting-menu__title">
-                텍스트
+                <strong>보이기</strong>
+                <button class="s-button" type="button" aria-label="사이드바로 이동">
+                  사이드바로 이동
+                </button>
               </div>
+            </div>
+            <div class="setting-menu__area">
+              <p class="setting-menu__title">
+                텍스트
+              </p>
               <ul class="setting-menu__list">
                 <li class="setting-menu__list-item">
                   <input id="text-ra-01" class="ch-radio" type="radio" name="text-change" value="작음">
@@ -135,9 +137,9 @@
               </ul>
             </div>
             <div class="setting-menu__area">
-              <div class="setting-menu__title">
+              <p class="setting-menu__title">
                 너비
-              </div>
+              </p>
               <ul class="setting-menu__list">
                 <li class="setting-menu__list-item">
                   <input id="width-ra-01" class="ch-radio" type="radio" name="width-change" value="표준">
@@ -191,9 +193,24 @@
         </div>
       </div>
     </header>
-
-    <main>
-
+    <main class="main">
+      <div class="index">
+        <div class="index__btn">
+          <button class="list-ico__btn" type="button" aria-haspopup="menu" aria-expanded="false">
+            <span class="sr-only">목차 보기</span>
+          </button>
+        </div>
+        <div class="index__popu">
+          <div class="index__area">
+            <div class="index__title">
+              <strong>목차</strong>
+            </div>
+            <button class="s-button" type="button" aria-label="사이드바로 이동">
+              사이드바로 이동
+            </button>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
 

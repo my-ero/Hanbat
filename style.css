@@ -1,25 +1,28 @@
 body {
     min-width: 1120px;
+    max-width: 99.75rem;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #eaecf0;
 }
 
-.jump-link{
-    display: block;
-    position: absolute !important;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    user-select: none;
+.main{
+    position: relative;
+    padding-top: 40px;
+    width: 100%;
+    height: max-content;
+    background-color: #fff;
 }
-header{
+
+.header{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 24px;
     width: 100%;
     padding: 8px 2.75rem;
-    margin: auto;
     font-size: 14px;
+    background-color: #fff;
 }
 
 .main-home__link {
@@ -65,7 +68,7 @@ header{
 }
 
 [class$="popup"] {
-    
+    display: none;
     position: absolute;
     top: 100%;
     padding: 16px;
